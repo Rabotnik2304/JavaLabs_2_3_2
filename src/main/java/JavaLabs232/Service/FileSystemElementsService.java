@@ -13,7 +13,7 @@ import java.util.List;
 
 public class FileSystemElementsService {
     private static List<FileSystemElement> fileSystemElementsInCurrentDir = new ArrayList<>();
-    private static String currentDirectoryPath = "C:\\Users\\Informant";
+    private static String currentDirectoryPath = "";
     public static List<FileSystemElement> GetFileSystemElementsFromCurrentDir(String path) {
         currentDirectoryPath = path;
         fileSystemElementsInCurrentDir = new ArrayList<>();
